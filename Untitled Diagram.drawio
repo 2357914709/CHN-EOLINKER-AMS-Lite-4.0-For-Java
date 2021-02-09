@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T06:54:55.231Z" agent="5.0 (Windows)" etag="p7neDSaJF_k_ghBZUsRO" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T06:58:30.080Z" agent="5.0 (Windows)" etag="8Glh5QP4KtmihpHGZxaB" version="14.3.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
         <mxCell id="7baba1c4bc27f4b0-45" value="①频控，量控：总共投，每日投放包括匀速投放，和尽快投放； ②频控规则：和设备观看的素材相关，从第一次曝光开始计时，key值为devicid:mtid:time(time为设置的时长)；③解释一下每日投放里面的匀速投，根据广告请求曲线，然后把每日曝光按照比例分配到每个小时里面； ④补充一下：频控计算是素材曝光，量控计算投放曝光.量控关键控制在投放mid(投放id)" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="820" y="140" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-46" value="前贴广告位包含正贴一，随机，倒贴，他们的处理逻辑不通，所以对筛选出来的投放进一步进行划分" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-46" value="①前贴广告位包含正贴一，随机，倒贴，②他们的处理逻辑不同，所以对筛选出来的投放要进行进一步进行划分" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="1130" y="150" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
@@ -156,7 +156,7 @@
             <mxPoint x="1180" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-38" value="&lt;div&gt;这块逻辑比较复杂，涉及前贴随机位置可以出多个，贴片全局时长，dsp相关；&lt;/div&gt;&lt;div&gt;普通广告位只能出一个投放，按照顺序遍历；如果遍历到第一个投放dsp的则记住投放id,然后继续遍历直到找到一个非dsp投放，这样做的目的是为了dsp投放请求不到的补位操作；前贴逻辑优先处理贴一的投放，期间判断全局时长控制；随机位置是能出多个投放，根据时长控制判断；然后根据时长控制条件判断倒贴&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-38" value="&lt;div&gt;这块逻辑比较复杂，涉及前贴随机位置可以出多个，贴片全局时长，dsp相关；&lt;/div&gt;&lt;div&gt;①普通广告位只能出一个投放，按照顺序遍历；如果遍历到第一个投放dsp的则记住投放id,然后继续遍历直到找到一个非dsp投放，这样做的目的是为了dsp投放请求不到的补位操作；②前贴逻辑优先处理贴一的投放，期间判断全局时长控制；随机位置是能出多个投放，根据时长控制判断；然后根据时长控制条件判断倒贴&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="1350" y="150" width="250" height="140" as="geometry" />
         </mxCell>
         <mxCell id="OUiYOWVPkow7d1ejZ-5c-47" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -165,17 +165,17 @@
         <mxCell id="OUiYOWVPkow7d1ejZ-5c-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffffff;" vertex="1" parent="OUiYOWVPkow7d1ejZ-5c-47">
           <mxGeometry x="45" y="345" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-49" value="根据ssp投放对其包含素材进行处理封装：cdn,还有一些关键参数；请求dsp投放处理返回的素材 " style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-49" value="①根据ssp投放对其包含素材进行处理封装：cdn,还有一些关键参数；②请求dsp投放处理返回的素材 " style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="1760" y="160" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-50" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-50" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2050" y="80" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="OUiYOWVPkow7d1ejZ-5c-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffffff;" vertex="1" parent="OUiYOWVPkow7d1ejZ-5c-50">
           <mxGeometry x="45" y="380" width="10" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-51" value="整合dsp返回的投放；普通广告位整合；前贴整合，结合全局时长控制，dsp投放请求中有未返回的情况，这个时候需要进行补位操作，在未被选中前贴ssp投放进行选择；" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="2020" y="160" width="160" height="90" as="geometry" />
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-51" value="整合dsp返回的投放；①普通广告位整合，②前贴整合，结合全局时长控制，把dsp投放中的素材加入返回给终端的素材列表，dsp投放请求中有未返回的情况，这个时候需要进行补位操作，在未被选中前贴ssp投放进行选择处理；" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="2020" y="160" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OUiYOWVPkow7d1ejZ-5c-54" value="整合dsp返回的投放素材" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="OUiYOWVPkow7d1ejZ-5c-50">
           <mxGeometry width="80" relative="1" as="geometry">
