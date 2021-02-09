@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T04:01:48.221Z" agent="5.0 (Windows)" etag="T5sB4G0eE3oc_sK8TEe0" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T06:51:28.064Z" agent="5.0 (Windows)" etag="51e1J7S9HfJ95rgrWtIe" version="14.3.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7baba1c4bc27f4b0-2" value="广告服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-2" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
@@ -23,7 +23,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-25" value="下一步根据时间和广告位筛选" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-3">
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-25" value="2.下一步根据时间和广告位筛选" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-3">
           <mxGeometry x="-0.0635" y="-10" width="80" relative="1" as="geometry">
             <mxPoint x="60" y="170" as="sourcePoint" />
             <mxPoint x="140" y="170" as="targetPoint" />
@@ -39,11 +39,11 @@
         <mxCell id="OUiYOWVPkow7d1ejZ-5c-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-3">
           <mxGeometry x="55" y="180" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-5" value="广告买哦书" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-5" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="840" y="80" width="140" height="600" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-5" vertex="1">
-          <mxGeometry x="65" y="245" width="10" height="115" as="geometry" />
+          <mxGeometry x="65" y="260" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-6" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="710" y="80" width="100" height="580" as="geometry" />
@@ -51,8 +51,17 @@
         <mxCell id="7baba1c4bc27f4b0-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-6" vertex="1">
           <mxGeometry x="45" y="240" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-7" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="960" y="80" width="100" height="580" as="geometry" />
+        <mxCell id="7baba1c4bc27f4b0-7" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-7">
+          <mxGeometry x="45" y="270" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-37" value="&lt;p style=&quot;line-height: 100%&quot;&gt;6.过滤出实际所需要的投放，这块逻辑和投放优先级相关&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-7" target="7baba1c4bc27f4b0-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="sourcePoint" />
+            <mxPoint x="140" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="终端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="580" as="geometry" />
@@ -60,67 +69,53 @@
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="45" y="100" width="10" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="585" y="440" width="10" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1005" y="460" width="10" height="30" as="geometry" />
+          <mxGeometry x="1440" y="380" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-26" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" parent="1" source="7baba1c4bc27f4b0-22" target="7baba1c4bc27f4b0-25" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="930" y="340" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" parent="1" source="7baba1c4bc27f4b0-25" target="7baba1c4bc27f4b0-22" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="930" y="416" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="870" y="550" width="10" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-29" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-37" target="7baba1c4bc27f4b0-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="550" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-28" target="7baba1c4bc27f4b0-9" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-30" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="OUiYOWVPkow7d1ejZ-5c-50" target="7baba1c4bc27f4b0-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="626" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="570" y="600" />
+              <mxPoint x="1720" y="590" />
             </Array>
+            <mxPoint x="1360" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-11" value="广告请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-10" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-11" value="1.广告请求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="190" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="590" y="520" width="10" height="40" as="geometry" />
+        <mxCell id="7baba1c4bc27f4b0-42" value="①服务器本地缓存有广告位，素材，投放，以及投放索引信息，②投放索引是一个数组，里面含有所有运行或者将要运行投放的简要信息 包含：投放id,广告位id,和投放时间，以及投放广告位位置；③投放索引每隔5秒从数据库获取最新数据，顺序会乱序处理，保证投放数据遍历随机性" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="497.5" y="140" width="242.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-39" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595.3333333333335" y="501" as="sourcePoint" />
-            <mxPoint x="600.3333333333335" y="539.3333333333334" as="targetPoint" />
+        <mxCell id="7baba1c4bc27f4b0-45" value="①频控，量控：总共投，每日投放包括匀速投放，和尽快投放； ②频控规则：和设备观看的素材相关，从第一次曝光开始计时，key值为devicid:mtid:time(time为设置的时长)；③解释一下每日投放里面的匀速投，根据广告请求曲线，然后把每日曝光按照比例分配到每个小时里面； ④补充一下：频控计算是素材曝光，量控计算投放曝光.量控关键控制在投放mid(投放id)" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="820" y="140" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-46" value="前贴广告位包含正贴一，随机，倒贴，他们的处理逻辑不通，所以对筛选出来的投放进一步进行划分" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+          <mxGeometry x="1130" y="150" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-4" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1395" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry x="45" y="280" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-41" value="因处理出来的投放分两种，一种是dsp,一种是ssp" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="290" as="sourcePoint" />
+            <mxPoint x="60" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="501" />
-              <mxPoint x="650" y="539" />
+              <mxPoint x="170" y="290" />
+              <mxPoint x="170" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-42" value="①服务器本地缓存有广告位，素材，投放，以及投放索引信息，②投放索引包含：投放id,广告位id,和投放时间，以及投放广告位位置；③投放索引每次从数据库获取最新数据，顺序会乱序处理，保证数据遍历随机性" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="497.5" y="140" width="185" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-45" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="820" y="30" width="100" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-46" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="960" y="30" width="100" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-4" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="70" width="100" height="580" as="geometry" />
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-43" value="7.素材处理封装" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-4" target="OUiYOWVPkow7d1ejZ-5c-47">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="340" as="sourcePoint" />
+            <mxPoint x="370" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OUiYOWVPkow7d1ejZ-5c-29" value="在投放索引初步筛选" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry x="0.135" width="80" relative="1" as="geometry">
@@ -133,8 +128,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-30" value="定向条件筛选" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="7baba1c4bc27f4b0-6">
-          <mxGeometry x="0.0019" y="10" width="80" relative="1" as="geometry">
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-30" value="3.定向条件筛选:比如地域，应用渠道等" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="7baba1c4bc27f4b0-6">
+          <mxGeometry x="0.1561" width="80" relative="1" as="geometry">
             <mxPoint x="500" y="320" as="sourcePoint" />
             <mxPoint x="730" y="370" as="targetPoint" />
             <Array as="points">
@@ -143,29 +138,52 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-31" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="650" y="340" as="sourcePoint" />
-            <mxPoint x="730" y="340" as="targetPoint" />
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-52" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUiYOWVPkow7d1ejZ-5c-30">
+          <mxGeometry x="0.0019" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-32" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="650" y="340" as="sourcePoint" />
-            <mxPoint x="730" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-33" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="650" y="340" as="sourcePoint" />
-            <mxPoint x="730" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OUiYOWVPkow7d1ejZ-5c-34" value="频控以及量控" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-34" value="4.频控以及量控" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
           <mxGeometry x="-0.2308" y="10" width="80" relative="1" as="geometry">
             <mxPoint x="770" y="340" as="sourcePoint" />
             <mxPoint x="900" y="340" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-35" value="5.处理投放位置相关逻辑" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OUiYOWVPkow7d1ejZ-5c-36">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="915" y="350" as="sourcePoint" />
+            <mxPoint x="1180" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-38" value="&lt;div&gt;这块逻辑比较复杂，涉及前贴随机位置可以出多个，贴片全局时长，dsp相关；&lt;/div&gt;&lt;div&gt;普通广告位只能出一个投放，按照顺序遍历；如果遍历到第一个投放dsp的则记住投放id,然后继续遍历直到找到一个非dsp投放，这样做的目的是为了dsp投放请求不到的补位操作；前贴逻辑优先处理贴一的投放，期间判断全局时长控制；随机位置是能出多个投放，根据时长控制判断；然后根据时长控制条件判断倒贴&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="1350" y="150" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-47" value="广告服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="80" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffffff;" vertex="1" parent="OUiYOWVPkow7d1ejZ-5c-47">
+          <mxGeometry x="45" y="345" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-49" value="根据ssp投放对其包含素材进行处理封装：cdn,还有一些关键参数；请求dsp投放处理返回的素材 " style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="1760" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-50" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="80" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#ffffff;" vertex="1" parent="OUiYOWVPkow7d1ejZ-5c-50">
+          <mxGeometry x="45" y="380" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-51" value="整合dsp返回的投放；普通广告位整合；前贴整合，结合全局时长控制，dsp投放请求中有未返回的情况，这个时候需要进行补位操作，在未被选中前贴ssp投放进行选择；" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="2020" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OUiYOWVPkow7d1ejZ-5c-54" value="整合dsp返回的投放素材" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="OUiYOWVPkow7d1ejZ-5c-50">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1840" y="460" as="sourcePoint" />
+            <mxPoint x="2040" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1940" y="460" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
